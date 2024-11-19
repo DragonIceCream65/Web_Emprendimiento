@@ -33,10 +33,15 @@ body {
 
 .login-btn {
   background-color: orange;
+  color: #070606;
+  padding: 0.5rem 2rem;
   border: none;
-  padding: 0.5em 1em;
-  border-radius: 5px;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
   cursor: pointer;
+  transition: scale 0.2 ease;;
 }
 
 .login-btn:hover {
